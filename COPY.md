@@ -21,9 +21,9 @@
 
 ## Hero
 
-- **Eyebrow:** Melbourne Based · Global Reach
+- **Eyebrow:** Australia Based · Global Reach
 - **Headline:** Connecting Global Innovation to the **Australian Market.**
-- **Subhead:** Product Sourcing & International Trade experts based in Melbourne. We help manufacturers and suppliers find their footing in Australia through data-driven logistics and deep market intelligence.
+- **Subhead:** Product Sourcing & International Trade experts based in Melbourne. We connect Australian businesses with trusted manufacturers and help suppliers find opportunities in the Australian market.
 - **Primary CTA:** Contact Us
 - **Secondary CTA:** Send Product Catalogue
 
@@ -38,18 +38,18 @@
 
 - **Eyebrow:** Sectors
 - **Heading:** What We Seek
-- **Subhead:** We focus on high-potential sectors where international innovation meets Australian demand.
+- **Subhead:** We focus on high-potential sectors where global innovation, manufacturing capability and Australian demand come together.
 
 ### Sector cards (6)
 
 | # | Title | Body |
 |---|---|---|
-| 1 | Consumer Products | Fast-moving consumer goods that challenge the status quo of local retail shelves. |
-| 2 | Home & Lifestyle | Curated furniture, decor, and domestic essentials designed for modern Australian living. |
-| 3 | Electronics & Smart Devices | Cutting-edge consumer electronics and IoT hardware for the tech-savvy market. |
+| 1 | Home & Lifestyle Products | Curated furniture, decor, and domestic essentials designed for modern Australian living. |
+| 2 | Home Office, Electronics & Smart Devices | Home office setups, consumer electronics, and IoT hardware for the tech-savvy market. |
+| 3 | Outdoor, Garden & BBQ Products | Outdoor living essentials, garden tools, and BBQ gear built for the Aussie backyard lifestyle. |
 | 4 | Innovative New Products | Pioneering inventions that solve unique problems or create entirely new categories. |
 | 5 | OEM / ODM Manufacturing | Partnering with manufacturers capable of high-precision custom production runs. |
-| 6 | Australia Market Opportunities | Identifying gaps in the local landscape and filling them with global excellence. |
+| 6 | Products with Potential in the Australian Market | Identifying gaps in the local landscape and filling them with global excellence. |
 
 ---
 
@@ -57,8 +57,8 @@
 
 - **Eyebrow:** The NanoDoodle Edge
 - **Heading:** Precision Sourcing Powered by Technology.
-- **Paragraph 1:** We are an Australian-based company combining international trade with a deep background in software and artificial intelligence.
-- **Paragraph 2:** Unlike traditional traders, we leverage AI tools to identify products with high growth potential and navigate complex regulatory environments. Our goal is to build enduring, long-term relationships that scale.
+- **Paragraph 1:** We are an Australian-based company combining international trade with a deep background in software and artificial intelligence, helping both businesses and manufacturers build the right partnerships.
+- **Paragraph 2:** Unlike traditional traders, we use AI tools and market insight to identify products with strong potential, connect the right partners, and build long-term relationships that scale.
 
 ### Edge items
 
@@ -89,7 +89,7 @@
 ## Section · Partner With Us (CTA)
 
 - **Heading:** Partner With Us
-- **Body:** Ready to enter the Australian market? Send us your company profile, product catalogue, or website. We are always interested in discovering new products and manufacturing partners.
+- **Body:** Looking to enter the Australian market or source new products? Share your company profile, product catalogue, or product requirements — we're always interested in new partnerships and opportunities.
 - **CTA button:** Contact Our Team
 - **CTA link target:** `mailto:trade@nanodoodle.com`
 

@@ -3,19 +3,19 @@ import Nav from "./nav";
 
 const sectors = [
   {
-    icon: "shopping_bag",
-    title: "Consumer Products",
-    body: "Fast-moving consumer goods that challenge the status quo of local retail shelves.",
-  },
-  {
     icon: "chair",
-    title: "Home & Lifestyle",
+    title: "Home & Lifestyle Products",
     body: "Curated furniture, decor, and domestic essentials designed for modern Australian living.",
   },
   {
     icon: "devices",
-    title: "Electronics & Smart Devices",
-    body: "Cutting-edge consumer electronics and IoT hardware for the tech-savvy market.",
+    title: "Home Office, Electronics & Smart Devices",
+    body: "Home office setups, consumer electronics, and IoT hardware for the tech-savvy market.",
+  },
+  {
+    icon: "outdoor_grill",
+    title: "Outdoor, Garden & BBQ Products",
+    body: "Outdoor living essentials, garden tools, and BBQ gear built for the Aussie backyard lifestyle.",
   },
   {
     icon: "lightbulb",
@@ -29,7 +29,7 @@ const sectors = [
   },
   {
     icon: "trending_up",
-    title: "Australia Market Opportunities",
+    title: "Products with Potential in the Australian Market",
     body: "Identifying gaps in the local landscape and filling them with global excellence.",
   },
 ];
@@ -85,7 +85,7 @@ export default function Home() {
           <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-5 sm:px-6 md:px-8 lg:grid-cols-12 lg:gap-16">
             <div className="z-10 lg:col-span-7">
               <span className="mb-5 inline-block rounded-md bg-secondary-container px-3 py-1 font-body text-[0.625rem] font-semibold uppercase tracking-[0.12em] text-primary sm:text-[0.6875rem]">
-                Melbourne Based · Global Reach
+                Australia Based · Global Reach
               </span>
               <h1 className="mb-5 font-headline text-[2.25rem] font-extrabold leading-[1.05] tracking-[-0.02em] text-primary sm:text-5xl md:mb-6 md:text-6xl lg:text-7xl">
                 Connecting Global Innovation to the{" "}
@@ -95,9 +95,9 @@ export default function Home() {
               </h1>
               <p className="mb-8 max-w-2xl text-base leading-relaxed text-on-surface-variant sm:text-lg md:mb-10 md:text-xl">
                 Product Sourcing & International Trade experts based in
-                Melbourne. We help manufacturers and suppliers find their
-                footing in Australia through data-driven logistics and deep
-                market intelligence.
+                Melbourne. We connect Australian businesses with trusted
+                manufacturers and help suppliers find opportunities in the
+                Australian market.
               </p>
               <div className="flex flex-col gap-3 sm:flex-row">
                 <a
@@ -150,7 +150,7 @@ export default function Home() {
             <SectionHeader
               eyebrow="Sectors"
               title="What We Seek"
-              body="We focus on high-potential sectors where international innovation meets Australian demand."
+              body="We focus on high-potential sectors where global innovation, manufacturing capability and Australian demand come together."
             />
             <div className="mt-14 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
               {sectors.map((s) => (
@@ -198,13 +198,14 @@ export default function Home() {
                 <p className="mb-5 text-base leading-relaxed text-on-surface-variant sm:text-lg">
                   We are an Australian-based company combining international
                   trade with a deep background in software and artificial
-                  intelligence.
+                  intelligence, helping both businesses and manufacturers build
+                  the right partnerships.
                 </p>
                 <p className="mb-8 text-base leading-relaxed text-on-surface-variant sm:text-lg">
-                  Unlike traditional traders, we leverage AI tools to identify
-                  products with high growth potential and navigate complex
-                  regulatory environments. Our goal is to build enduring,
-                  long-term relationships that scale.
+                  Unlike traditional traders, we use AI tools and market
+                  insight to identify products with strong potential, connect
+                  the right partners, and build long-term relationships that
+                  scale.
                 </p>
                 <div className="space-y-3">
                   <EdgeItem icon="psychology">
@@ -271,9 +272,10 @@ export default function Home() {
               Partner With Us
             </h2>
             <p className="mb-10 text-base leading-relaxed text-on-surface-variant sm:text-lg">
-              Ready to enter the Australian market? Send us your company
-              profile, product catalogue, or website. We are always interested
-              in discovering new products and manufacturing partners.
+              Looking to enter the Australian market or source new products?
+              Share your company profile, product catalogue, or product
+              requirements — we're always interested in new partnerships and
+              opportunities.
             </p>
             <a
               href="mailto:trade@nanodoodle.com"
