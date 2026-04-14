@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:nanodoodle-trade.vercel.app)",
+      "mcp__stitch__get_screen",
+      "Bash(curl -sL \"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzA4YTc2MTcyN2VlOTQ5YTU5YjI3NjJkZDRiNTQ2OWVhEgsSBxCug_3R6RsYAZIBIwoKcHJvamVjdF9pZBIVQhMzMDE5NzUxMjQzMjM1NjQ3MDgy&filename=&opi=89354086\" -o /tmp/stitch-landing.html)",
+      "Read(//tmp/**)",
+      "Bash(curl -sL \"https://lh3.googleusercontent.com/aida/ADBb0uhv2dCFUaCRhCqWLPjFba9EmekvtWP2638N5Qg7Vk75GEooylZnwfOKV0Z61gIHgD-BcgDUTuzxPALcQzywu-kxIChMxbRXakmLFzwUbNyei8YrhZE4ngmcyS40hmJ_DOlPZYUBADtGd-hGr3kVxOdwejfpeQ9WpFpsGGnrjBHiOHJlcI5EcFhy1T1xzaWSEM1j3JgDNeXSjdOPEU0Qmj2JFZ78P-e27OCWmWYbqgATX4LVFGVR9HHi3iY\" -o /tmp/stitch-landing.png)",
+      "mcp__playwright__browser_resize",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_console_messages",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_click",
+      "Bash(curl -sL \"https://lh3.googleusercontent.com/aida-public/AB6AXuBoOZKfYJqHLJnOXBzI-6sgnsRQm-2Mr_0jqzkOuzpzg2uxGxe5cIS42r_Wr4zv1CDKwtD2Cqx-eNzMnaakf-w9URSnTQWwBdS18cxDXattYL4LBg9X4Sq8CZLtlQFb1QRMLNotH0IyU4jkr80BFdzHjJMBpLKD3IRUpep67KPx6ctiJeScJKQjMwUyxe2HWIxpnFMKSzZzCaryk4_sSKQ4ORV6SKNa21QwwWPYCuiUAzK6q63U5XEs2c72T4rUD-tGiHH4EOGZ4ko\" -o /Users/nndou/Projects/nanodoodle-trade/public/hero.jpg)",
+      "Bash(curl -sL \"https://lh3.googleusercontent.com/aida-public/AB6AXuDRiTJljUJL30JZ75UjN32QDFWzce-dBsTQE77yPhmqxsG9MSuy2Q29icpcvHvmiTA_ow5gVYicP3fmaqh-yF0mLlmfWHIHMBMHPqDuZ5ZjrcSgVeGlv5krZuR030qkN8p-yN9bAL_zRqgefDdiTUP38q_34jNvi0lIHxv5hhQfJ2zTtAhPk7MEa04djSFpu87nHHmTi1AqT1lUDddGEk6XBIH-gh_fdt4CqFKt73jwWGj1ILx2oxKyI3Uui8_mP1qQD38FnJUWsvQ\" -o /Users/nndou/Projects/nanodoodle-trade/public/why-us.jpg)",
+      "Bash(ls /Users/nndou/Projects/nanodoodle-trade/*.png)",
+      "Bash(npm run:*)"
+    ]
+  }
+}

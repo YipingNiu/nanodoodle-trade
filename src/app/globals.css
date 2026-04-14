@@ -1,26 +1,113 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* === Color palette — DESIGN.md §2 === */
+  --color-primary: #004377;
+  --color-primary-container: #1d5b96;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #b2d2ff;
+  --color-primary-fixed: #d2e4ff;
+  --color-primary-fixed-dim: #a1c9ff;
+  --color-on-primary-fixed: #001c37;
+  --color-on-primary-fixed-variant: #004880;
+
+  --color-secondary: #4d6078;
+  --color-secondary-container: #cee1fe;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #52647d;
+
+  --color-surface: #f8f9ff;
+  --color-surface-bright: #f8f9ff;
+  --color-surface-dim: #d9dadf;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f3f3f9;
+  --color-surface-container: #ededf3;
+  --color-surface-container-high: #e7e8ed;
+  --color-surface-container-highest: #e1e2e8;
+  --color-surface-variant: #e1e2e8;
+
+  --color-on-surface: #191c20;
+  --color-on-surface-variant: #424750;
+  --color-outline: #727781;
+  --color-outline-variant: #c2c7d1;
+
+  --color-background: #f8f9ff;
+  --color-on-background: #191c20;
+
+  /* === Typography === */
+  --font-headline: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* === Radii — DESIGN.md §6: engineered, not rounded === */
+  --radius-xs: 0.125rem;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+  color: var(--color-on-surface);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-primary-fixed-dim);
+  color: var(--color-on-primary-fixed);
+}
+
+/* DESIGN.md §4: ambient shadow tint — 6% on-surface, 32px blur, 12px Y */
+.shadow-ambient {
+  box-shadow: 0 12px 32px 0 rgba(25, 28, 32, 0.06);
+}
+
+/* DESIGN.md §2: hero CTA metallic gradient, 135° primary → primary-container */
+.bg-metallic {
+  background-image: linear-gradient(135deg, #004377 0%, #1d5b96 100%);
+}
+.bg-metallic::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1), transparent 40%);
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+/* DESIGN.md §2: glass nav — surface 70% opacity + 24px backdrop-blur */
+.glass-nav {
+  background: color-mix(in srgb, var(--color-surface) 70%, transparent);
+  backdrop-filter: blur(24px) saturate(1.2);
+  -webkit-backdrop-filter: blur(24px) saturate(1.2);
+}
+
+/* DESIGN.md §4: ghost border — outline-variant @ 15% opacity */
+.ghost-border {
+  box-shadow: inset 0 0 0 1px rgba(194, 199, 209, 0.15);
+}
+
+/* Material Symbols base */
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+.material-symbols-outlined.filled {
+  font-variation-settings: "FILL" 1, "wght" 500, "GRAD" 0, "opsz" 24;
 }
