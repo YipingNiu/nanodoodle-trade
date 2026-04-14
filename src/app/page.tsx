@@ -222,24 +222,17 @@ export default function Home() {
         {/* How We Work */}
         <section id="how" className="bg-primary py-16 text-on-primary md:py-24">
           <div className="mx-auto max-w-7xl px-5 sm:px-6 md:px-8">
-            <div className="mb-14 flex flex-col justify-between gap-8 md:flex-row md:items-end">
-              <div className="max-w-2xl">
-                <span className="mb-4 block font-body text-[0.6875rem] font-bold uppercase tracking-[0.12em] text-primary-fixed-dim">
-                  Pipeline
-                </span>
-                <h2 className="mb-5 font-headline text-3xl font-bold tracking-[-0.02em] sm:text-4xl md:text-5xl">
-                  Our Sourcing Pipeline
-                </h2>
-                <p className="text-base text-on-primary-container sm:text-lg">
-                  From initial discovery to long-term market dominance, we
-                  manage the entire lifecycle of trade.
-                </p>
-              </div>
-              <div className="flex gap-2">
-                <span className="h-1 w-10 bg-on-primary/30" />
-                <span className="h-1 w-10 bg-on-primary" />
-                <span className="h-1 w-10 bg-on-primary/30" />
-              </div>
+            <div className="mb-14 max-w-2xl">
+              <span className="mb-4 block font-body text-[0.6875rem] font-bold uppercase tracking-[0.12em] text-primary-fixed-dim">
+                Pipeline
+              </span>
+              <h2 className="mb-5 font-headline text-3xl font-bold tracking-[-0.02em] sm:text-4xl md:text-5xl">
+                Our Sourcing Pipeline
+              </h2>
+              <p className="text-base text-on-primary-container sm:text-lg">
+                From initial discovery to long-term market dominance, we manage
+                the entire lifecycle of trade.
+              </p>
             </div>
 
             <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
