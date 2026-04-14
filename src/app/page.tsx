@@ -99,18 +99,12 @@ export default function Home() {
                 manufacturers and help suppliers find opportunities in the
                 Australian market.
               </p>
-              <div className="flex flex-col gap-3 sm:flex-row">
+              <div>
                 <a
                   href="#contact"
-                  className="bg-metallic relative overflow-hidden rounded-md px-6 py-3.5 text-center font-headline text-sm font-semibold text-on-primary transition hover:brightness-110 sm:px-7 sm:py-4"
+                  className="bg-metallic relative inline-block overflow-hidden rounded-md px-6 py-3.5 text-center font-headline text-sm font-semibold text-on-primary transition hover:brightness-110 sm:px-7 sm:py-4"
                 >
                   Contact Us
-                </a>
-                <a
-                  href="#contact"
-                  className="rounded-md bg-surface-container-highest px-6 py-3.5 text-center font-headline text-sm font-semibold text-primary transition hover:bg-surface-variant sm:px-7 sm:py-4"
-                >
-                  Send Product Catalogue
                 </a>
               </div>
             </div>

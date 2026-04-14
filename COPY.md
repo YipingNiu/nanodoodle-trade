@@ -25,7 +25,6 @@
 - **Headline:** Connecting Global Innovation to the **Australian Market.**
 - **Subhead:** Product Sourcing & International Trade experts based in Melbourne. We connect Australian businesses with trusted manufacturers and help suppliers find opportunities in the Australian market.
 - **Primary CTA:** Contact Us
-- **Secondary CTA:** Send Product Catalogue
 
 ### Floating badge (hero image)
 
