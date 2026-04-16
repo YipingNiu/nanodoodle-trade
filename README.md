@@ -44,8 +44,10 @@ src/
 └── app/
     ├── layout.tsx    # 根布局
     ├── page.tsx      # 首页
-    └── globals.css   # 全局样式
-public/               # 静态资源
+    ├── nav.tsx       # 导航栏（玻璃磨砂效果 + 移动端抽屉）
+    ├── reveal.tsx    # 滚动显隐动画组件（IntersectionObserver）
+    └── globals.css   # 全局样式 & 动画关键帧
+public/               # 静态资源（hero.png, why-us.png 等）
 ```
 
 ## 部署
